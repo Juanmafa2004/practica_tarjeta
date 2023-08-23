@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(29, 28, 28);
+    background-color: #3a96ffcc;
 }
 section {
     width: 100%;
@@ -9,7 +9,7 @@ section {
 .card {
     width: 500px;
     height: 560px;
-    background: rgb(20, 70, 177);
+    background: #0a66ce;
     border-radius: 2%;
     overflow: hidden;
 }
@@ -17,3 +17,44 @@ section {
     height: 250px;
     width: 100%;
 }
+
+.profile-img-container img
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 439.1px;
+    top: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.texto p 
+{
+text-align: center;
+position: relative;
+top: 40px;
+color:rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+}
+
+.texto p:nth-child(3){
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    }
+
+.texto p:nth-child(4){
+        text-align: center;
+        position: relative;
+        top: 20px;
+        color:rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        }
+
+    
