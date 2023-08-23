@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(29, 28, 28);
+}
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 500px;
+    height: 560px;
+    background: rgb(20, 70, 177);
+    border-radius: 2%;
+    overflow: hidden;
+}
+.header img{
+    height: 250px;
+    width: 100%;
+}
