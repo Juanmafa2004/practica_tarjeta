@@ -1,17 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
 body{
     background-color: #3a96ffcc;
 }
+
 section {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .card {
-    width: 500px;
-    height: 560px;
+    width: 540px;
+    height: 600px;
     background: #0a66ce;
     border-radius: 2%;
     overflow: hidden;
+    position: relative;
+    top: 100px;
 }
 .header img{
     height: 250px;
@@ -22,39 +34,42 @@ section {
 {
     width: 150px;
     height: 150px;
-    position: absolute;
-    left: 439.1px;
-    top: 150px;
+    position: relative;
+    margin: auto;
+    left: 199px;
+    bottom: 120px;
     overflow: hidden;
     border-radius: 50%;
 }
 
-.texto p 
+.middle{
+    position: relative;
+    width: 90%;
+    height: 240px;
+    margin: auto;
+    bottom: 115px;
+    background-color: rgba(5, 201, 201, 0.767);
+}
+
+.encabezado
 {
 text-align: center;
 position: relative;
-top: 40px;
+top: 10px;
 color:rgb(255, 255, 255);
 font-family: Arial, Helvetica, sans-serif;
-font-size: 19px;
+font-size: 2.2rem;
 }
 
-.texto p:nth-child(3){
+.content{
+
     text-align: center;
     position: relative;
     top: 20px;
     color:rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1.5rem;
     }
 
-.texto p:nth-child(4){
-        text-align: center;
-        position: relative;
-        top: 20px;
-        color:rgb(255, 255, 255);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        }
 
     
