@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-color: #3a96ffcc;
+    background-image: url(https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
 section {
@@ -74,7 +74,7 @@ font-size: 2.2rem;
 .end{
     position: relative;
     width: 100%;
-    height: 65px;
+    height: 66px;
     margin: auto;
     bottom: 111px;
     background-color: rgba(0, 0, 0, 0.979);
